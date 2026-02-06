@@ -1,0 +1,67 @@
+/* Utilities */
+.border-top {
+  border-top: 1px solid #f2f2f2;
+}
+.border-bottom {
+  border-bottom: 1px solid #f2f2f2;
+}
+.border-right {
+  border-right: 1px solid #f2f2f2;
+}
+.borderBottom-Black {
+  border-bottom: 0.05px solid #0291fe !important;
+}
+.border-1 {
+  border: 1px solid #f2f2f2;
+}
+.border-mid {
+  border: 1.5px solid #f2f2f2;
+}
+.middle-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Hseparator {
+  height: 14px;
+  width: 1px;
+  background: #b8b7b7;
+}
+
+.separatorLine {
+  height: 0.1px;
+  width: 100%;
+  background: #131a36;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.divide {
+  height: 1px;
+  background: linear-gradient(to right, #f2f2f2, #ffffff);
+}
+
+/* form */
+.input {
+  border: 1.5px solid #f2f2f2;
+  padding: 0.6rem 1rem;
+  color: #737373;
+  font-size: 14px;
+}
+.input:focus,
+.textarea:focus {
+  border: 1.5px solid #d6f0fd;
+  outline: none;
+}
+.input::placeholder,
+.textarea::placeholder {
+  color: #c5c3c3;
+}
+.textarea {
+  border: 1.5px solid #f2f2f2;
+  padding: 0.6rem 1rem;
+  color: #737373;
+  font-size: 14px;
+  resize: none;
+}

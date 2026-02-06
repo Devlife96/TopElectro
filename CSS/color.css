@@ -1,0 +1,55 @@
+/* Brand Color 
+TOP ELECTRO
+ */
+
+/* Background Color */
+.bg-navy {
+  background: #080c1a;
+}
+.--bg-navy {
+  background: #020242;
+}
+.bg-blue {
+  background: #0291fe;
+}
+.bg-light-blue {
+  background: #d6f0fd;
+}
+.bg-light-blue-1 {
+  background: #e3f2f9;
+}
+.bg-dark {
+  background: #111111;
+}
+.bg-white {
+  background: #ffffff;
+}
+.bg-light {
+  background: #f2f2f2;
+}
+.bg-yellow {
+  background: #fbbf32;
+}
+
+/* Forground Color */
+.dark {
+  color: #111111;
+}
+.white {
+  color: #ffffff;
+}
+.light {
+  color: #f2f2f2;
+}
+.blue {
+  color: #0291fe;
+}
+.light-blue {
+  color: #d6f0fd;
+}
+.light-GrayBlue {
+  color: #8f9da4;
+}
+.yellow {
+  color: #fbbf32;
+}
