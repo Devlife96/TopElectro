@@ -30,75 +30,95 @@
   <body>
     <div class="navigation">
       <div class="container">
-        <div class="row border-bottom py-3 align-items-center">
-          <div class="col-md-6">
-            <div
-              class="d-flex align-items-center justify-content-between gap-4"
-            >
-              <div class="_h-40 _w-100 bg-light rounded-1"></div>
-              <div class="searchHeader">
-                <form action="" method="post">
-                  <div
-                    class="search d-flex align-items-center px-3 _h-40 border-1"
-                  >
-                    <input
-                      class="flex-1 w-100"
-                      type="text"
-                      class="border-0 bg-light"
-                      placeholder="Search for any products or brands"
-                    />
-                    <button class="customBtnSearch">
-                      <i class="bi bi-search fs-14 mx-1"></i>
-                    </button>
-                  </div>
-                </form>
+        <!-- Small Screen -->
+        <div class="BreakSmView">
+          <div class=" border-bottom d-flex justify-content-between  py-3">
+            <div class="_w-40 _h-20 bg-light "></div>
+          
+            <div class="notification d-flex align-tems-center gap-1 ">
+              <a href="HTML/wish-list.html" class="  dark fw-300 "><i class="bi bi-heart fs-14"></i>
+              </a>
+              <a href="HTML/cart.html" class="  dark fw-300"><i class="bi bi-cart fs-14"></i></a>
+              <a href="HTML/sign-in.html" class="log px-2  dark fw-300 "><i class="bi bi-person-circle fs-14"></i></a>
+            </div>
+          </div>
+          <!-- link -->
+           <div class="d-flex  align-items-center justify-content-between  py-3 gap-2">
+              <div class="toogleMenu  d-flex justify-content-center align-items-start"><i class="bi bi-filter-left fs-28 light-GrayBlue"></i></div>
+              <div class="linkDisplay d-flex align-items-center gap-1 hidden">
+                <a class="dark fw-400 fs-14 active" href="HTML/home.html">All Categories</a>
+                <a class="dark fw-400 fs-14" href="HTML/electronics.html">Electronics</a>
+                <a class="dark fw-400 fs-14" href="HTML/smartphones.html">Smartphones</a>
+                <a class="dark fw-400 fs-14" href="HTML/computers.html">Computers</a>
+                <a class="dark fw-400 fs-14" href="HTML/accessories.html">Accessories</a>
+                <a class="dark fw-400 fs-14" href="HTML/contact.html">Contact</a>
+              </div>
+              <form action="" method="post" class="flex-grow-1 smHeaderForm px-2 border-1 py-1 d-flex align-items-center gap-1">
+                <input type="text" class="w-100 fs-14" placeholder="Search..." />
+                <button class="">
+                  <i class="bi bi-search fs-14 mx-1"></i>
+                </button>
+              </form>
+              <a href="" class="dark fw-400 fs-14"><i class="bi bi-gift"></i></a>
+           </div>
+         
+            
+         
+          
+
+        </div>
+        
+          <!-- Large Screen -->
+        <div class="BreakLgView">
+          <div class=" row border-bottom py-3 align-items-center">
+            <div class="col-md-6">
+              <div class=" d-flex align-items-center justify-content-between gap-4">
+                <a class=" fw-bold _w-100 _h-40 bg-light " href="#hero"></a>
+                <div class="searchHeader">
+                  <form action="" method="post">
+                    <div class="search d-flex align-items-center px-3 _h-40 border-1">
+                      <input class="flex-1 w-100" type="text" class="border-0 bg-light"
+                        placeholder="Search for any products or brands" />
+                      <button class="customBtnSearch">
+                        <i class="bi bi-search fs-14 mx-1"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="headerLink d-flex align-tems-center justify-content-end">
+                <a href="HTML/wish-list.html" class="mx-2 text-decoration-none dark fw-300 fs-14"><i
+                    class="bi bi-heart fs-16 mx-1"></i> Wishlist</a>
+                <a href="HTML/cart.html" class="mx-2 text-decoration-none dark fw-300 fs-14"><i class="bi bi-cart fs-16 mx-1"></i>
+                  Cart</a>
+                <a href="HTML/sign-in.html" class="log px-2 mx-1 text-decoration-none dark fw-300 fs-14"><i
+                    class="bi bi-person-circle fs-16 mx-1"></i> Sign In</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div
-              class="headerLink d-flex align-tems-center justify-content-end"
-            >
-              <a href="#" class="mx-2 text-decoration-none dark fw-300 fs-14"
-                ><i class="bi bi-heart fs-16 mx-1"></i> Wishlist</a
-              >
-              <a href="#" class="mx-2 text-decoration-none dark fw-300 fs-14"
-                ><i class="bi bi-cart fs-16 mx-1"></i> Cart</a
-              >
-              <a
-                href="#"
-                class="log px-2 mx-1 text-decoration-none dark fw-300 fs-14"
-                ><i class="bi bi-person-circle fs-16 mx-1"></i> Sign In</a
-              >
+          <div class="navigationLink row py-3 align-items-center justify-content-between">
+            <div class="col-md-8">
+              <div class="d-flex align-items-center gap-1">
+                <a class="dark fw-400 fs-14 active" href="HTML/home.html">All Categories</a>
+                <a class="dark fw-400 fs-14" href="HTML/electronics.html">Electronics</a>
+                <a class="dark fw-400 fs-14" href="HTML/smartphones.html">Smartphones</a>
+                <a class="dark fw-400 fs-14" href="HTML/computers.html">Computers</a>
+                <a class="dark fw-400 fs-14" href="HTML/accessories.html">Accessories</a>
+                <a class="dark fw-400 fs-14" href="HTML/contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex align-items-center gap-2 justify-content-end">
+                <a href="" class="dark fw-400 fs-14"><i class="bi bi-gift"></i> Best Deal</a>
+                <div class="Hseparator"></div>
+                <span class="dark fw-400 fs-14"><i class="bi bi-telephone"></i> +509 0000 00 00</span>
+              </div>
             </div>
           </div>
         </div>
-        <div
-          class="navigationLink row py-3 align-items-center justify-content-between"
-        >
-          <div class="col-md-8">
-            <div class="d-flex align-items-center gap-1">
-              <a class="dark fw-400 fs-14 active" href="">All Categories</a>
-              <a class="dark fw-400 fs-14" href="">Electronics</a>
-              <a class="dark fw-400 fs-14" href="">Smartphones</a>
-              <a class="dark fw-400 fs-14" href="">Computers</a>
-              <a class="dark fw-400 fs-14" href="">Audio</a>
-              <a class="dark fw-400 fs-14" href="">Accessories</a>
-              <a class="dark fw-400 fs-14" href="HTML/contact.html">Contact</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="d-flex align-items-center gap-2 justify-content-end">
-              <a href="" class="dark fw-400 fs-14"
-                ><i class="bi bi-gift"></i> Best Deal</a
-              >
-              <div class="Hseparator"></div>
-              <span class="dark fw-400 fs-14"
-                ><i class="bi bi-telephone"></i> +509 0000 00 00</span
-              >
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
     <div class="banner">
@@ -132,7 +152,7 @@
 
     <section class="py-5">
       <div class="container">
-        <div class="d-flex align-items-center justify-content-between mb-3">
+        <div class="headline d-flex align-items-center justify-content-between mb-3 px-2">
           <h2 class="fw-500 fs-20 dark">Today Best Deal For You!</h2>
           <a href="HTML/electronics.html" class="dark fw-400 fs-14">
             <span>View All</span>
@@ -141,7 +161,7 @@
         </div>
 
         <div
-          class="d-flex flex-wrap align-items-center justify-content-center gap-4"
+          class="d-flex flex-wrap align-items-center justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4 cardContainer"
         >
           <div class="cardBox mb-2">
             <a href="HTML/product-details.html">
@@ -167,7 +187,7 @@
               <div class="cardBoxText px-2 py-3">
                 <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
                 <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-                <div class="d-flex align-items-center gap-1 mb-2">
+                <div class="rate d-flex align-items-center gap-1 mb-1">
                   <i class="bi bi-star-fill fs-12 yellow"></i>
                   <i class="bi bi-star-fill fs-12 yellow"></i>
                   <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -200,7 +220,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-2">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -232,7 +252,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-2">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -264,7 +284,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-2">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -296,7 +316,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-2">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -308,10 +328,10 @@
         </div>
       </div>
     </section>
-    <section class="py-5">
+    <section class="cardPubBox py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-3 mb-3">
             <div
               class="cardPub w-100 bg-light rounded-4 position-relative overflow-hidden"
             >
@@ -335,7 +355,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-3 mb-3">
             <div
               class="cardPub w-100 bg-light rounded-4 overflow-hidden position-relative"
             >
@@ -357,7 +377,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-3 mb-3">
             <div
               class="cardPub w-100 bg-light rounded-4 overflow-hidden position-relative"
             >
@@ -384,7 +404,7 @@
     </section>
     <section class="py-5">
       <div class="container">
-        <div class="d-flex align-items-center justify-content-between mb-3">
+        <div class="headline d-flex align-items-center justify-content-between mb-3">
           <h2 class="fw-500 fs-20 dark">Best Deal Accessories</h2>
           <a href="HTML/electronics.html" class="dark fw-400 fs-14">
             <span>View All</span>
@@ -393,7 +413,7 @@
         </div>
 
         <div
-          class="d-flex flex-wrap align-items-center justify-content-center gap-4"
+          class="d-flex flex-wrap align-items-center  justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4 cardContainer"
         >
           <div class="cardBox mb-2">
             <div
@@ -418,7 +438,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -450,7 +470,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -482,7 +502,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -514,7 +534,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -546,7 +566,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -559,7 +579,7 @@
       </div>
     </section>
     <!-- Banner promotion -->
-    <section class="py-5">
+    <section class="boxBannerPromotion py-5">
       <div class="container">
         <div
           class="promotionBanner w-100 bg-navy rounded-4 position-relative overflow-hidden"
@@ -582,7 +602,7 @@
     </section>
     <section class="py-5">
       <div class="container">
-        <div class="d-flex align-items-center justify-content-between mb-3">
+        <div class="headline d-flex align-items-center justify-content-between mb-3">
           <h2 class="fw-500 fs-20 dark">New Arrivals</h2>
           <a href="HTML/electronics.html" class="dark fw-400 fs-14">
             <span>View All</span>
@@ -591,7 +611,7 @@
         </div>
 
         <div
-          class="d-flex flex-wrap align-items-center justify-content-center gap-4"
+          class="d-flex flex-wrap align-items-center justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4 "
         >
           <div class="cardBox mb-2">
             <div
@@ -616,7 +636,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -648,7 +668,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -680,7 +700,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -712,7 +732,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -744,7 +764,7 @@
             <div class="cardBoxText px-2 py-3">
               <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
               <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
+              <div class="rate d-flex align-items-center gap-1 mb-1">
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
                 <i class="bi bi-star-fill fs-12 yellow"></i>
@@ -759,8 +779,8 @@
     <!-- Brand trusted -->
     <section class="py-5 border-top">
       <div class="container">
-        <h2 class="fw-500 fs-20 dark mb-4 text-center">Trusted By Top Brand</h2>
-        <div class="d-flex align-items-center justify-content-center gap-3">
+        <h2 class="brandTrustedHeadline fs-20 dark mb-4 text-center">Trusted By Top Brand</h2>
+        <div class="brandTrustedContainer d-flex flex-wrap align-items-center  justify-content-center gap-3">
           <div
             class="brandTrusted _h-50 _w-150 d-flex align-items-center justify-content-center bg-light"
           >
@@ -837,7 +857,7 @@
     <!-- shpping info -->
     <section class="shippingBox py-4 border-top">
       <div class="container">
-        <div class="d-flex align-items-center justify-content-center gap-5">
+        <div class="shippingContainer d-flex flex-wrap align-items-center justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4">
           <div
             class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2"
           >
@@ -896,7 +916,7 @@
         </div>
       </div>
     </section>
-    <footer class="py-5 bg-navy light-blue">
+    <footer class="py-5 bg-navy light-blue position-relative">
       <div class="container">
         <div class="row mb-3">
           <div class="col-md-3">
@@ -922,30 +942,30 @@
             <ul class="list-unstyled">
               <li>
                 <a
-                  href="#"
+                  href="HTML/electronics.html"
                   class="text-decoration-none light-GrayBlue fw-400 fs-14"
                   >Electronics</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="HTML/phone.html"
                   class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Returns</a
+                  >Smartphone</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="HTML/computers.html"
                   class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Shipping</a
+                  >Computers</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="HTML/accessories.html"
                   class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Contact Us</a
+                  >Accessories</a
                 >
               </li>
             </ul>
@@ -958,28 +978,28 @@
             <ul class="list-unstyled">
               <li>
                 <a
-                  href="#"
+                  href="HTML/help.html"
                   class="text-decoration-none light-GrayBlue fw-400 fs-14"
                   >Help Center</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="HTML/returns.html"
                   class="text-decoration-none light-GrayBlue fw-400 fs-14"
                   >Returns</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="HTML/shipping.html"
                   class="text-decoration-none light-GrayBlue fw-400 fs-14"
                   >Shipping</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="HTML/contact.html"
                   class="text-decoration-none light-GrayBlue fw-400 fs-14"
                   >Contact Us</a
                 >
@@ -1032,8 +1052,8 @@
           </div>
         </div>
         <div class="separatorLine bg-blue"></div>
-        <div class="d-flex justify-content-between mt-4">
-          <p class="fw-300 fs-14 light-GrayBlue mb-0">
+        <div class="footerText flex-wrap d-flex justify-content-sm-center justify-content-md-between mt-4">
+          <p class="fw-300 fs-14 light-GrayBlue mb-1">
             &copy;
             <script>
               document.write(new Date().getFullYear());
@@ -1045,80 +1065,14 @@
             Viactechnology&trade;
           </p>
         </div>
+        <div
+          class="backtoTop position-fixed  d-flex align-items-center justify-content-center rounded-pill bg-light  _h-50 _w-50  cursor-pointer ">
+          <i class="bi bi-chevron-up fs-120 navy"></i>
+        
+        </div>
       </div>
     </footer>
-
-    <!-- Menu -->
-    <!-- <div class="navMenu _h-50 bg-navy w-100 position-absolute bottom-0">
-      <div class="container">
-        <div
-          class="menuBox d-flex align-items-center justify-content-between px-3 py-1"
-        >
-          <a
-            class="navigation d-flex justify-content-center align-items-center flex-column"
-            href="#"
-          >
-            <i class="bi bi-house-door fs-16 light-blue"></i>
-            <span class="light-blue fs-12 fw-300">Home</span>
-          </a>
-          <a
-            class="navigation d-flex justify-content-center align-items-center flex-column"
-            href="#"
-          >
-            <i class="bi bi-list-nested fs-16 light-blue"></i>
-            <span class="light-blue fs-12 fw-300">Browse</span> </a
-          ><a
-            class="navigation d-flex justify-content-center align-items-center flex-column"
-            href="#"
-          >
-            <i class="bi bi-cart fs-16 light-blue"></i>
-            <span class="light-blue fs-12 fw-300">Cart</span>
-          </a>
-          <a
-            class="navigation d-flex justify-content-center align-items-center flex-column"
-            href="#"
-          >
-            <i class="bi bi-box fs-16 light-blue"></i>
-            <span class="light-blue fs-12 fw-300">Order</span>
-          </a>
-          <a
-            class="navigation d-flex justify-content-center align-items-center flex-column"
-            href="#"
-          >
-            <i class="bi bi-person fs-16 light-blue"></i>
-            <span class="light-blue fs-12 fw-300">Profile</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="topMenu mb-3 borderBottom-Black bg-light">
-      <div
-        class="container d-flex align-items-center justify-content-between py-3"
-      >
-        <div class="menu _h-25 _w-25 rounded-1 text-center">
-          <i class="bi bi-filter-left fs-28 fw-400 dark"></i>
-        </div>
-        <div class="d-flex align-items-center gap-1">
-          <a class="_h-25 _w-25 rounded-1 text-center"
-            ><i class="bi bi-cart navy"></i
-          ></a>
-          <a class="_h-25 _w-25 rounded-1 text-center"
-            ><i class="bi bi-person-circle navy"></i
-          ></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="searchForm w-80 mx-auto">
-      <form action="" method="post">
-        <div class="container py-3">
-          <div class="search d-flex align-items-center px-3">
-            <i class="bi bi-search fs-14 blue mx-1"></i>
-            <input type="text" class="" placeholder="Search for products" />
-          </div>
-        </div>
-      </form>
-    </div> -->
+    
+   
   </body>
 </html>

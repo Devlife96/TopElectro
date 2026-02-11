@@ -208,45 +208,6 @@ textarea:focus {
 .shippingInfo {
   border: 1.8px solid #f2f2f2;
 }
-/* footer */
-footer ul li a {
-  transition: all 0.3s ease;
-}
-footer ul li a:hover {
-  font-weight: 500;
-  color: #d6f0fd;
-  transform: scale(1.8);
-}
-footer .follow a {
-  border: 1px solid #212d5c;
-  transition: all 0.3s ease;
-}
-.footerUnderline {
-  height: 1px;
-  width: 80px;
-  background: linear-gradient(to right, #212d5c, #080c1a);
-}
-footer .subscribe {
-  padding: 1rem 3px 1rem 1rem;
-  border-radius: 4rem;
-  border: 1px solid #212d5c;
-}
-footer .subscribe input {
-  border: none;
-  outline: none;
-  background: transparent !important;
-  font-size: 14px;
-  color: #8f9da4;
-  font-weight: 300;
-}
-footer .subscribe input::placeholder {
-  color: #8f9da4;
-  font-size: 14px;
-}
-footer .subscribe button {
-  color: #8f9da4;
-  background: #131a36;
-}
 
 /* product view */
 .productView {
@@ -276,4 +237,70 @@ footer .subscribe button {
 /* contact */
 .contactFormDetails div {
   border-bottom: 1px solid #f2f2f2;
+}
+/* footer */
+footer ul li a {
+  transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+  font-weight: 500;
+  color: #d6f0fd;
+  transform: scale(1.8);
+}
+
+footer .follow a {
+  border: 1px solid #212d5c;
+  transition: all 0.3s ease;
+}
+
+.footerUnderline {
+  height: 1px;
+  width: 80px;
+  background: linear-gradient(to right, #212d5c, #080c1a);
+}
+
+footer .subscribe {
+  padding: 1rem 3px 1rem 1rem;
+  border-radius: 4rem;
+  border: 1px solid #212d5c;
+}
+
+footer .subscribe input {
+  border: none;
+  outline: none;
+  background: transparent !important;
+  font-size: 14px;
+  color: #8f9da4;
+  font-weight: 300;
+}
+
+footer .subscribe input::placeholder {
+  color: #8f9da4;
+  font-size: 14px;
+}
+
+footer .subscribe button {
+  color: #8f9da4;
+  background: #131a36;
+}
+footer .backtoTop {
+  right: 20px;
+  bottom: 20px;
+  border: 2px solid #f2f2f2;
+  transition: all 0.3s ease;
+}
+footer .backtoTop:hover {
+  background: #131a36 !important;
+  color: #d6f0fd !important;
+  transform: scale(1.2);
+}
+footer .backtoTop:hover i {
+  color: #d6f0fd !important;
+  transform: scale(1.2);
+}
+
+/* Setup For #te break Points --Responsive */
+.BreakSmView {
+  display: none ;
 }

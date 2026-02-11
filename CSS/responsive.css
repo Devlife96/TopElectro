@@ -1,0 +1,91 @@
+@media  (max-width: 576px) {
+   .BreakLgView {
+    display: none ;
+}
+
+.BreakSmView {
+    display: block ; 
+ }
+/* toogle Menu */
+.linkDisplay{
+    display: none !important;
+}
+.BreakSmView .smHeaderForm{
+    border-radius: 4rem;
+}
+.BreakSmView .smHeaderForm input{
+    width: 180px;
+    border: none;    
+    color: #737373;
+}
+.BreakSmView .smHeaderForm input::placeholder {
+color: #c5c3c3;
+
+}
+.BreakSmView .smHeaderForm button{
+    color: #737373;
+}
+/* hide the banner */
+.banner{
+    display: none ;
+}
+
+.headline h2 , .headline a{
+    font-size: 14px;
+}
+/* card product */
+
+.cardBox .cardBoxContainer{
+    width: 120px;
+    height: 120px;
+}
+.cardBox .cardBoxContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardBox .cardBoxText h3{
+    font-size: 13px;
+}
+
+.cardBox .cardBoxText .rate i{
+    font-size: 10px;
+}
+.cardBox .cardBoxText span{
+    font-size: 14px;
+}
+/* Brand trusted */
+.brandTrustedHeadline{
+    font-size: 14px;
+}
+.brandTrustedContainer{
+    gap: 8px;
+}
+.brandTrustedContainer .brandTrusted{
+    width: 100px;
+    height: 40px;
+}
+.brandTrustedContainer .brandTrusted img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* shipping Info */
+.shippingBox .shippingContainer{
+    gap: 10px;
+}
+footer .subscribe{
+    width: 75%;
+}
+}
+@media  (max-width: 768px) {
+   .BreakLgView {
+    display: none !important;} 
+}
+
+@media   (max-width: 992px)  {
+    
+}
+@media  (min-width: 1200px) {
+    
+}
