@@ -32,34 +32,35 @@
       <div class="container">
         <!-- Small Screen -->
         <div class="BreakSmView">
-          <div class=" border-bottom d-flex justify-content-between  py-3">
-            <div class="_w-40 _h-20 bg-light "></div>
+          <div class=" border-bottom d-flex justify-content-between align-items-center  py-3">
+            <a href="#" class="d-flex justify-content-center align-items-center _h-40 _w-40 rounded-pill  "><i class="bi bi-flower3 fs-32 yellow"></i></a>
           
             <div class="notification d-flex align-tems-center gap-1 ">
-              <a href="HTML/wish-list.html" class="  dark fw-300 "><i class="bi bi-heart fs-14"></i>
+              <a href="HTML/wish-list.html" class="d-flex justify-content-center py-1  _h-30 _w-30 bg-light border-mid rounded-pill position-relative"><i class="bi bi-heart fs-14"></i><span class="d-block displayBadge   position-absolute  bg-red rounded-pill "></span>
               </a>
-              <a href="HTML/cart.html" class="  dark fw-300"><i class="bi bi-cart fs-14"></i></a>
-              <a href="HTML/sign-in.html" class="log px-2  dark fw-300 "><i class="bi bi-person-circle fs-14"></i></a>
+              <a href="HTML/cart.html" class="d-flex justify-content-center py-1  _h-30 _w-30 bg-light  border-mid rounded-pill position-relative"><i class="bi bi-cart fs-14"></i><span class="d-block displayBadge   position-absolute  bg-red rounded-pill "></span></a>
+              <a href="HTML/sign-in.html" class="log d-flex justify-content-center py-1  _h-30 _w-30 bg-light   border-mid rounded-pill"><i class="bi bi-person-circle fs-14"></i></a>
             </div>
           </div>
           <!-- link -->
-           <div class="d-flex  align-items-center justify-content-between  py-3 gap-2">
+           <div class="menuContainer d-flex  align-items-center justify-content-between  py-3 gap-2 position-relative">
               <div class="toogleMenu  d-flex justify-content-center align-items-start"><i class="bi bi-filter-left fs-28 light-GrayBlue"></i></div>
-              <div class="linkDisplay d-flex align-items-center gap-1 hidden">
-                <a class="dark fw-400 fs-14 active" href="HTML/home.html">All Categories</a>
-                <a class="dark fw-400 fs-14" href="HTML/electronics.html">Electronics</a>
-                <a class="dark fw-400 fs-14" href="HTML/smartphones.html">Smartphones</a>
-                <a class="dark fw-400 fs-14" href="HTML/computers.html">Computers</a>
-                <a class="dark fw-400 fs-14" href="HTML/accessories.html">Accessories</a>
-                <a class="dark fw-400 fs-14" href="HTML/contact.html">Contact</a>
+              <div class="linkDisplay   border-right d-flex flex-column   position-absolute top-100 start-0 px-3 py-5 gap-2 hidden">
+                <div class="d-flex justify-content-center  menuClose _h-25 _w-25   rounded-pill"><i class="bi bi-x fs-18 light-GrayBlue"></i></div>
+                <a class="dark fw-400 fs-16 py-2 " href="HTML/home.html">All Categories</a>
+                <a class="dark fw-400 fs-16 py-2" href="HTML/electronics.html">Electronics </a>
+                <a class="dark fw-400 fs-16 py-2" href="HTML/smartphones.html"> Smartphones</a>
+                <a class="dark fw-400 fs-16 py-2" href="HTML/computers.html"> Computers</a>
+                <a class="dark fw-400 fs-16 py-2" href="HTML/accessories.html"> Accessories</a>
+                <a class="dark fw-400 fs-16 py-2" href="HTML/contact.html">Contact</a>
               </div>
-              <form action="" method="post" class="flex-grow-1 smHeaderForm px-2 border-1 py-1 d-flex align-items-center gap-1">
+              <form action="" method="post" class="flex-grow-1 smHeaderForm px-2 border-mid py-1 d-flex align-items-center gap-1">
                 <input type="text" class="w-100 fs-14" placeholder="Search..." />
                 <button class="">
                   <i class="bi bi-search fs-14 mx-1"></i>
                 </button>
               </form>
-              <a href="" class="dark fw-400 fs-14"><i class="bi bi-gift"></i></a>
+              <a href="" class="dark fw-400 fs-14 d-flex justify-content-center py-1  _h-30 _w-30 bg-light border-mid rounded-pill"><i class="bi bi-gift"></i></a>
            </div>
          
             
@@ -161,9 +162,9 @@
         </div>
 
         <div
-          class="d-flex flex-wrap align-items-center justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4 cardContainer"
+          class="d-flex flex-wrap align-items-center justify-content-sm-center justify-content-md-center gap-3 cardContainer"
         >
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <a href="HTML/product-details.html">
               <div
                 class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
@@ -197,7 +198,7 @@
               </div>
             </a>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -229,7 +230,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -261,7 +262,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -293,7 +294,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -346,7 +347,7 @@
               >
                 <p class="fw-400 fs-12 light-GrayBlue mb-1">Up to 30% Off</p>
                 <h3 class="fw-600 fs-32 light-blue mb-0">MacBook Air</h3>
-                <p class="fw-400 fs-12 light-GrayBlue mb-3">
+                <p  class="desc fw-400 fs-12 light-GrayBlue mb-3">
                   8GB RAM / 128GB storage
                 </p>
                 <a href="" class="myBtnPub btn MyBtn w-auto border-1"
@@ -370,7 +371,7 @@
               >
                 <p class="fw-400 fs-12 light-GrayBlue mb-1">Up to 30% Off</p>
                 <h3 class="fw-600 fs-32 light-blue mb-0">JBL Speaker</h3>
-                <p class="fw-400 fs-12 light-GrayBlue mb-3">ready to party</p>
+                <p class="desc fw-400 fs-12 light-GrayBlue mb-3">ready to party</p>
                 <a href="" class="myBtnPub btn MyBtn w-auto border-1"
                   >Shop Now</a
                 >
@@ -392,7 +393,7 @@
               >
                 <p class="fw-400 fs-12 light-GrayBlue mb-1">Up to 30% Off</p>
                 <h3 class="fw-600 fs-32 light-blue mb-0">Air Pods Pro Max</h3>
-                <p class="fw-400 fs-12 light-GrayBlue mb-3">Quality sound</p>
+                <p class="desc fw-400 fs-12 light-GrayBlue mb-3">Quality sound</p>
                 <a href="" class="myBtnPub btn MyBtn w-auto border-1"
                   >Shop Now</a
                 >
@@ -413,9 +414,9 @@
         </div>
 
         <div
-          class="d-flex flex-wrap align-items-center  justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4 cardContainer"
+          class="d-flex flex-wrap align-items-center  justify-content-sm-start justify-content-md-center gap-3 cardContainer"
         >
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -447,7 +448,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -479,7 +480,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -511,7 +512,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -543,7 +544,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -611,9 +612,9 @@
         </div>
 
         <div
-          class="d-flex flex-wrap align-items-center justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4 "
+          class="d-flex flex-wrap align-items-center justify-content-sm-start justify-content-md-center gap-3 "
         >
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -645,7 +646,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -677,7 +678,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -709,7 +710,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -741,7 +742,7 @@
               <span class="fw-600 fs-18 dark">$1,299.00</span>
             </div>
           </div>
-          <div class="cardBox mb-2">
+          <div class="cardBox mb-0">
             <div
               class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
             >
@@ -1073,6 +1074,8 @@
       </div>
     </footer>
     
+    <!-- Js Import -->
+    <script src="JS/menu.js"></script>
    
   </body>
 </html>

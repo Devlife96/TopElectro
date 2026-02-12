@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- FONT INTER -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="container">
+            <!-- Small Screen -->
+            <div class="BreakSmView">
+                <div class=" border-bottom d-flex justify-content-between align-items-center  py-3">
+                    <a href="../index.html" class="d-flex justify-content-center align-items-center _h-40 _w-40 rounded-pill  "><i
+                            class="bi bi-flower3 fs-32 yellow"></i></a>
+
+                    <div class="notification d-flex align-tems-center gap-1 ">
+                        <a href="wish-list.html"
+                            class="d-flex justify-content-center py-1  _h-30 _w-30 bg-light border-mid rounded-pill position-relative"><i
+                                class="bi bi-heart fs-14"></i><span
+                                class="d-block displayBadge   position-absolute  bg-red rounded-pill "></span>
+                        </a>
+                        <a href="cart.html"
+                            class="d-flex justify-content-center py-1  _h-30 _w-30 bg-light  border-mid rounded-pill position-relative"><i
+                                class="bi bi-cart fs-14"></i><span
+                                class="d-block displayBadge   position-absolute  bg-red rounded-pill "></span></a>
+                        <a href="sign-in.html"
+                            class="log d-flex justify-content-center py-1  _h-30 _w-30 bg-light   border-mid rounded-pill"><i
+                                class="bi bi-person-circle fs-14"></i></a>
+                    </div>
+                </div>
+                <!-- link -->
+                <div
+                    class="menuContainer d-flex  align-items-center justify-content-between  py-3 gap-2 position-relative">
+                    <div class="toogleMenu  d-flex justify-content-center align-items-start"><i
+                            class="bi bi-filter-left fs-28 light-GrayBlue"></i></div>
+                    <div
+                        class="linkDisplay   border-right d-flex flex-column   position-absolute top-100 start-0 px-3 py-5 gap-2 hidden">
+                        <div class="d-flex justify-content-center  menuClose _h-25 _w-25   rounded-pill"><i
+                                class="bi bi-x fs-18 light-GrayBlue"></i></div>
+                        <a class="dark fw-400 fs-16 py-2 " href="home.html">All Categories</a>
+                        <a class="dark fw-400 fs-16 py-2" href="electronics.html">Electronics </a>
+                        <a class="dark fw-400 fs-16 py-2" href="smartphones.html"> Smartphones</a>
+                        <a class="dark fw-400 fs-16 py-2" href="computers.html"> Computers</a>
+                        <a class="dark fw-400 fs-16 py-2" href="accessories.html"> Accessories</a>
+                        <a class="dark fw-400 fs-16 py-2" href="contact.html">Contact</a>
+                    </div>
+                    <form action="" method="post"
+                        class="flex-grow-1 smHeaderForm px-2 border-mid py-1 d-flex align-items-center gap-1">
+                        <input type="text" class="w-100 fs-14" placeholder="Search..." />
+                        <button class="">
+                            <i class="bi bi-search fs-14 mx-1"></i>
+                        </button>
+                    </form>
+                    <a href=""
+                        class="dark fw-400 fs-14 d-flex justify-content-center py-1  _h-30 _w-30 bg-light border-mid rounded-pill"><i
+                            class="bi bi-gift"></i></a>
+                </div>
+
+
+
+
+
+            </div>
+
+            <!-- Large Screen -->
+            <div class="BreakLgView">
+                <div class=" row border-bottom py-3 align-items-center">
+                    <div class="col-md-6">
+                        <div class=" d-flex align-items-center justify-content-between gap-4">
+                            <a class=" fw-bold _w-100 _h-40 bg-light " href="#hero"></a>
+                            <div class="searchHeader">
+                                <form action="" method="post">
+                                    <div class="search d-flex align-items-center px-3 _h-40 border-1">
+                                        <input class="flex-1 w-100" type="text" class="border-0 bg-light"
+                                            placeholder="Search for any products or brands" />
+                                        <button class="customBtnSearch">
+                                            <i class="bi bi-search fs-14 mx-1"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="headerLink d-flex align-tems-center justify-content-end">
+                            <a href="wish-list.html" class="mx-2 text-decoration-none dark fw-300 fs-14"><i
+                                    class="bi bi-heart fs-16 mx-1"></i> Wishlist</a>
+                            <a href="cart.html" class="mx-2 text-decoration-none dark fw-300 fs-14"><i
+                                    class="bi bi-cart fs-16 mx-1"></i>
+                                Cart</a>
+                            <a href="sign-in.html" class="log px-2 mx-1 text-decoration-none dark fw-300 fs-14"><i
+                                    class="bi bi-person-circle fs-16 mx-1"></i> Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigationLink row py-3 align-items-center justify-content-between">
+                    <div class="col-md-8">
+                        <div class="d-flex align-items-center gap-1">
+                            <a class="dark fw-400 fs-14 active" href="home.html">All Categories</a>
+                            <a class="dark fw-400 fs-14" href="electronics.html">Electronics</a>
+                            <a class="dark fw-400 fs-14" href="smartphones.html">Smartphones</a>
+                            <a class="dark fw-400 fs-14" href="computers.html">Computers</a>
+                            <a class="dark fw-400 fs-14" href="accessories.html">Accessories</a>
+                            <a class="dark fw-400 fs-14" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center gap-2 justify-content-end">
+                            <a href="" class="dark fw-400 fs-14"><i class="bi bi-gift"></i> Best Deal</a>
+                            <div class="Hseparator"></div>
+                            <span class="dark fw-400 fs-14"><i class="bi bi-telephone"></i> +509 0000 00 00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="">
+        <div class="container">
+            <div class=" linkBanner d-flex align-items-center gap-1 py-3  light border-top">
+                <a href="index.html" class="light-GrayBlue fw-400 fs-14">Home</a>
+                <i class="bi bi-chevron-right light-GrayBlue fs-12 fw-400"></i>
+                <a href="#" class="fw-400 fs-14 light-GrayBlue">Hot Deals</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="headline d-flex align-items-center justify-content-between mb-3 px-2">
+                <h2 class="fw-500 fs-20 dark">Hot Deals</h2>
+
+            </div>
+
+            <div
+                class="d-flex flex-wrap align-items-center justify-content-sm-center justify-content-md-center gap-3 cardContainer">
+                <div class="cardBox mb-0">
+                    <a href="product-details.html">
+                        <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                            <img src="../IMG/phone/iphone.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                            <div
+                                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-heart fs-16 dark"></i>
+                            </div>
+                            <div
+                                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-cart fs-16 dark"></i>
+                            </div>
+                        </div>
+                        <div class="cardBoxText px-2 py-3">
+                            <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                            <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                            <div class="rate d-flex align-items-center gap-1 mb-1">
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                            </div>
+                            <span class="fw-600 fs-18 dark">$1,299.00</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardBox mb-0">
+                    <a href="product-details.html">
+                        <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                            <img src="../IMG/phone/mac.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                            <div
+                                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-heart fs-16 dark"></i>
+                            </div>
+                            <div
+                                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-cart fs-16 dark"></i>
+                            </div>
+                        </div>
+                        <div class="cardBoxText px-2 py-3">
+                            <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                            <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                            <div class="rate d-flex align-items-center gap-1 mb-2">
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                            </div>
+                            <span class="fw-600 fs-18 dark">$1,299.00</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardBox mb-0">
+                    <a href="product-details.html">
+                        <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                            <img src="../IMG/phone/watch.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                            <div
+                                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-heart fs-16 dark"></i>
+                            </div>
+                            <div
+                                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-cart fs-16 dark"></i>
+                            </div>
+                        </div>
+                        <div class="cardBoxText px-2 py-3">
+                            <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                            <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                            <div class="rate d-flex align-items-center gap-1 mb-2">
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                            </div>
+                            <span class="fw-600 fs-18 dark">$1,299.00</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardBox mb-0">
+                    <a href="product-details.html">
+                        <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                            <img src="../IMG/phone/ipad.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                            <div
+                                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-heart fs-16 dark"></i>
+                            </div>
+                            <div
+                                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-cart fs-16 dark"></i>
+                            </div>
+                        </div>
+                        <div class="cardBoxText px-2 py-3">
+                            <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                            <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                            <div class="rate d-flex align-items-center gap-1 mb-2">
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                            </div>
+                            <span class="fw-600 fs-18 dark">$1,299.00</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardBox mb-0">
+                    <a href="product-details.html">
+                        <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                            <img src="../IMG/phone/s25.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                            <div
+                                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-heart fs-16 dark"></i>
+                            </div>
+                            <div
+                                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                                <i class="bi bi-cart fs-16 dark"></i>
+                            </div>
+                        </div>
+                        <div class="cardBoxText px-2 py-3">
+                            <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                            <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                            <div class="rate d-flex align-items-center gap-1 mb-2">
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                                <i class="bi bi-star-fill fs-12 yellow"></i>
+                            </div>
+                            <span class="fw-600 fs-18 dark">$1,299.00</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Promotion -->
+    <section class="py-5">
+        <div class="container">
+            <div class="promotionBanner w-100 bg-navy rounded-4 position-relative overflow-hidden">
+                <img src="../IMG/accessories/3.jpg" alt="" srcset="" class="img-fluid w-100 h-100" />
+                <div class="overlayBlack position-absolute"></div>
+                <div class="textDescription position-absolute">
+                    <p>50% discount</p>
+                    <h2 class="fs-36 fw-600">Apple Watch</h2>
+                    <p class="fs-14 mb-4">64 GB storage</p>
+                    <a href="" class="myBtnPub btn MyBtn w-auto border-1">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand trusted -->
+    <section class="py-5 border-top">
+        <div class="container">
+            <h2 class="brandTrustedHeadline fs-20 dark mb-4 text-center">Trusted By Top Brand</h2>
+            <div class="brandTrustedContainer d-flex flex-wrap align-items-center  justify-content-center gap-3">
+                <div class="brandTrusted _h-50 _w-150 d-flex align-items-center justify-content-center bg-light">
+                    <img src="../IMG/BrandTrusted/samsung.png" alt="" srcset="" class="img-fluid h-100" />
+                </div>
+                <div class="brandTrusted _h-50 _w-150 d-flex align-items-center justify-content-center bg-light">
+                    <img src="../IMG/BrandTrusted/oppo.png" alt="" srcset="" class="img-fluid h-100" />
+                </div>
+                <div class="brandTrusted _h-50 _w-150 d-flex align-items-center justify-content-center bg-light">
+                    <img src="../IMG/BrandTrusted/huawei.png" alt="" srcset="" class="img-fluid h-100" />
+                </div>
+                <div class="brandTrusted _h-50 _w-150 d-flex align-items-center justify-content-center bg-light">
+                    <img src="../IMG/BrandTrusted/apple.png" alt="" srcset="" class="img-fluid h-100" />
+                </div>
+                <div class="brandTrusted _h-50 _w-150 d-flex align-items-center justify-content-center bg-light">
+                    <img src="../IMG/BrandTrusted/motorola.png" alt="" srcset="" class="img-fluid h-100" />
+                </div>
+                <div class="brandTrusted _h-50 _w-150 d-flex align-items-center justify-content-center bg-light">
+                    <img src="../IMG/BrandTrusted/oneplus.png" alt="" srcset="" class="img-fluid h-100" />
+                </div>
+                <div class="brandTrusted _h-50 _w-150 d-flex align-items-center justify-content-center bg-light">
+                    <img src="../IMG/BrandTrusted/infinix.png" alt="" srcset="" class="img-fluid h-100" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- shpping info -->
+    <section class="shippingBox py-4 border-top">
+        <div class="container">
+            <div
+                class="shippingContainer d-flex flex-wrap align-items-center justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4">
+                <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
+                    <i class="bi bi-gift fs-18 yellow"></i>
+                    <div class="shippingText">
+                        <h3 class="fw-400 fs-14 dark mb-0">Free In-store pickup</h3>
+                        <p class="fw-300 fs-10 light-GrayBlue mb-0">
+                            24/7 amazing services
+                        </p>
+                    </div>
+                </div>
+                <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
+                    <i class="bi bi-box-seam fs-18 yellow"></i>
+                    <div class="shippingText">
+                        <h3 class="fw-400 fs-14 dark mb-0">Free Shipping</h3>
+                        <p class="fw-300 fs-10 light-GrayBlue mb-0">
+                            24/7 amazing services
+                        </p>
+                    </div>
+                </div>
+                <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
+                    <i class="bi bi-coin fs-18 yellow"></i>
+                    <div class="shippingText">
+                        <h3 class="fw-400 fs-14 dark mb-0">Flexible Payment</h3>
+                        <p class="fw-300 fs-10 light-GrayBlue mb-0">
+                            24/7 amazing services
+                        </p>
+                    </div>
+                </div>
+                <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
+                    <i class="bi bi-headset fs-18 yellow"></i>
+                    <div class="shippingText">
+                        <h3 class="fw-400 fs-14 dark mb-0">Covenient Help</h3>
+                        <p class="fw-300 fs-10 light-GrayBlue mb-0">
+                            24/7 amazing services
+                        </p>
+                    </div>
+                </div>
+                <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
+                    <i class="bi bi-repeat fs-18 yellow"></i>
+                    <div class="shippingText">
+                        <h3 class="fw-400 fs-14 dark mb-0">Easy Returns</h3>
+                        <p class="fw-300 fs-10 light-GrayBlue mb-0">
+                            24/7 amazing services
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5 bg-navy light-blue position-relative">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <div class="mb-3">
+                        <h3 class="fw-400 fs-18 mb-3">TopElectro</h3>
+                        <div class="footerUnderline"></div>
+                    </div>
+                    <p class="fw-400 fs-14 light-GrayBlue mb-1">
+                        123 Main Street, Anytown, USA
+                    </p>
+                    <p class="fw-400 fs-14 light-GrayBlue mb-1">
+                        Email: info@topelectro.com
+                    </p>
+                    <p class="fw-400 fs-14 light-GrayBlue mb-1">
+                        Phone: +509 0000 00 00
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="mb-3">
+                        <h3 class="fw-400 fs-18 mb-3">Navigation</h3>
+                        <div class="footerUnderline"></div>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="HTML/electronics.html"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14">Electronics</a>
+                        </li>
+                        <li>
+                            <a href="HTML/phone.html"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14">Smartphone</a>
+                        </li>
+                        <li>
+                            <a href="HTML/computers.html"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14">Computers</a>
+                        </li>
+                        <li>
+                            <a href="HTML/accessories.html"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14">Accessories</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="mb-3">
+                        <h3 class="fw-400 fs-18 mb-3">Customer Services</h3>
+                        <div class="footerUnderline"></div>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="HTML/help.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Help
+                                Center</a>
+                        </li>
+                        <li>
+                            <a href="HTML/returns.html"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14">Returns</a>
+                        </li>
+                        <li>
+                            <a href="HTML/shipping.html"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14">Shipping</a>
+                        </li>
+                        <li>
+                            <a href="HTML/contact.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Contact
+                                Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="mb-3">
+                        <h3 class="fw-400 fs-18 mb-3">Follow Us</h3>
+                        <div class="footerUnderline"></div>
+                    </div>
+                    <div class="">
+                        <div class="follow d-flex align-items-center gap-3 mb-3">
+                            <a href="#"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"><i
+                                    class="bi bi-facebook fs-16"></i></a>
+                            <a href="#"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"><i
+                                    class="bi bi-twitter fs-16"></i>
+                            </a>
+                            <a href="#"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"><i
+                                    class="bi bi-instagram fs-16"></i></a>
+                            <a href="#"
+                                class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"><i
+                                    class="bi bi-tiktok fs-16"></i></a>
+                        </div>
+                        <div class="subscribe py-2">
+                            <form action="" method="post" class="d-flex align-items-center">
+                                <input type="email" name="" id="" class="fw-400 fs-14 light-GrayBlue"
+                                    placeholder="Your email..." />
+                                <button class="btn _h-40 _w-40 fs-14 rounded-pill">
+                                    <i class="bi bi-send"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="separatorLine bg-blue"></div>
+            <div class="footerText flex-wrap d-flex justify-content-sm-center justify-content-md-between mt-4">
+                <p class="fw-300 fs-14 light-GrayBlue mb-1">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    TopElectro. All rights reserved.
+                </p>
+                <p class="fw-300 fs-14 light-GrayBlue mb-0">
+                    Made with <i class="bi bi-heart-fill text-danger"></i> by
+                    Viactechnology&trade;
+                </p>
+            </div>
+            <div
+                class="backtoTop position-fixed  d-flex align-items-center justify-content-center rounded-pill bg-light  _h-50 _w-50  cursor-pointer ">
+                <i class="bi bi-chevron-up fs-120 navy"></i>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Js Import -->
+    <script src="../JS/menu.js"></script>
+</body>
+
+</html>

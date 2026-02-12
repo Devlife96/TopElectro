@@ -30,6 +30,9 @@ TOP ELECTRO
 .bg-yellow {
   background: #fbbf32;
 }
+.bg-red {
+  background: #ff0000;
+}
 
 /* Forground Color */
 .navy {
@@ -55,4 +58,7 @@ TOP ELECTRO
 }
 .yellow {
   color: #fbbf32;
+}
+.red {
+  color: #ff0000;
 }

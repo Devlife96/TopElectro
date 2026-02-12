@@ -28,25 +28,73 @@
     <title>Home</title>
   </head>
   <body>
-    <div class="navigation">
-      <div class="container">
-        <div class="row border-bottom py-3 align-items-center">
+  <div class="navigation">
+    <div class="container">
+      <!-- Small Screen -->
+      <div class="BreakSmView">
+        <div class=" border-bottom d-flex justify-content-between align-items-center  py-3">
+          <a class="d-flex justify-content-center align-items-center _h-40 _w-40 rounded-pill  "><i
+              class="bi bi-flower3 fs-32 yellow"></i></a>
+  
+          <div class="notification d-flex align-tems-center gap-1 ">
+            <a href="wish-list.html"
+              class="d-flex justify-content-center py-1  _h-30 _w-30 bg-light border-mid rounded-pill position-relative"><i
+                class="bi bi-heart fs-14"></i><span
+                class="d-block displayBadge   position-absolute  bg-red rounded-pill "></span>
+            </a>
+            <a href="cart.html"
+              class="d-flex justify-content-center py-1  _h-30 _w-30 bg-light  border-mid rounded-pill position-relative"><i
+                class="bi bi-cart fs-14"></i><span
+                class="d-block displayBadge   position-absolute  bg-red rounded-pill "></span></a>
+            <a href="sign-in.html"
+              class="log d-flex justify-content-center py-1  _h-30 _w-30 bg-light   border-mid rounded-pill"><i
+                class="bi bi-person-circle fs-14"></i></a>
+          </div>
+        </div>
+        <!-- link -->
+        <div class="menuContainer d-flex  align-items-center justify-content-between  py-3 gap-2 position-relative">
+          <div class="toogleMenu  d-flex justify-content-center align-items-start"><i
+              class="bi bi-filter-left fs-28 light-GrayBlue"></i></div>
+          <div
+            class="linkDisplay   border-right d-flex flex-column   position-absolute top-100 start-0 px-3 py-5 gap-2 hidden">
+            <div class="d-flex justify-content-center  menuClose _h-25 _w-25   rounded-pill"><i
+                class="bi bi-x fs-18 light-GrayBlue"></i></div>
+            <a class="dark fw-400 fs-16 py-2 " href="home.html">All Categories</a>
+            <a class="dark fw-400 fs-16 py-2" href="electronics.html">Electronics </a>
+            <a class="dark fw-400 fs-16 py-2" href="smartphones.html"> Smartphones</a>
+            <a class="dark fw-400 fs-16 py-2" href="computers.html"> Computers</a>
+            <a class="dark fw-400 fs-16 py-2" href="accessories.html"> Accessories</a>
+            <a class="dark fw-400 fs-16 py-2" href="contact.html">Contact</a>
+          </div>
+          <form action="" method="post"
+            class="flex-grow-1 smHeaderForm px-2 border-mid py-1 d-flex align-items-center gap-1">
+            <input type="text" class="w-100 fs-14" placeholder="Search..." />
+            <button class="">
+              <i class="bi bi-search fs-14 mx-1"></i>
+            </button>
+          </form>
+          <a href=""
+            class="dark fw-400 fs-14 d-flex justify-content-center py-1  _h-30 _w-30 bg-light border-mid rounded-pill"><i
+              class="bi bi-gift"></i></a>
+        </div>
+  
+  
+  
+  
+  
+      </div>
+  
+      <!-- Large Screen -->
+      <div class="BreakLgView">
+        <div class=" row border-bottom py-3 align-items-center">
           <div class="col-md-6">
-            <div
-              class="d-flex align-items-center justify-content-between gap-4"
-            >
-              <div class="_h-40 _w-100 bg-light rounded-1"></div>
+            <div class=" d-flex align-items-center justify-content-between gap-4">
+              <a class=" fw-bold _w-100 _h-40 bg-light " href="#hero"></a>
               <div class="searchHeader">
                 <form action="" method="post">
-                  <div
-                    class="search d-flex align-items-center px-3 _h-40 border-1"
-                  >
-                    <input
-                      class="flex-1 w-100"
-                      type="text"
-                      class="border-0 bg-light"
-                      placeholder="Search for any products or brands"
-                    />
+                  <div class="search d-flex align-items-center px-3 _h-40 border-1">
+                    <input class="flex-1 w-100" type="text" class="border-0 bg-light"
+                      placeholder="Search for any products or brands" />
                     <button class="customBtnSearch">
                       <i class="bi bi-search fs-14 mx-1"></i>
                     </button>
@@ -56,56 +104,45 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div
-              class="headerLink d-flex align-tems-center justify-content-end"
-            >
-              <a href="#" class="mx-2 text-decoration-none dark fw-300 fs-14"
-                ><i class="bi bi-heart fs-16 mx-1"></i> Wishlist</a
-              >
-              <a href="#" class="mx-2 text-decoration-none dark fw-300 fs-14"
-                ><i class="bi bi-cart fs-16 mx-1"></i> Cart</a
-              >
-              <a
-                href="#"
-                class="log px-2 mx-1 text-decoration-none dark fw-300 fs-14"
-                ><i class="bi bi-person-circle fs-16 mx-1"></i> Sign In</a
-              >
+            <div class="headerLink d-flex align-tems-center justify-content-end">
+              <a href="HTML/wish-list.html" class="mx-2 text-decoration-none dark fw-300 fs-14"><i
+                  class="bi bi-heart fs-16 mx-1"></i> Wishlist</a>
+              <a href="HTML/cart.html" class="mx-2 text-decoration-none dark fw-300 fs-14"><i
+                  class="bi bi-cart fs-16 mx-1"></i>
+                Cart</a>
+              <a href="HTML/sign-in.html" class="log px-2 mx-1 text-decoration-none dark fw-300 fs-14"><i
+                  class="bi bi-person-circle fs-16 mx-1"></i> Sign In</a>
             </div>
           </div>
         </div>
-        <div
-          class="navigationLink row py-3 align-items-center justify-content-between"
-        >
+        <div class="navigationLink row py-3 align-items-center justify-content-between">
           <div class="col-md-8">
             <div class="d-flex align-items-center gap-1">
-              <a class="dark fw-400 fs-14" href="">All Categories</a>
-              <a class="dark fw-400 fs-14 active" href="">Electronics</a>
-              <a class="dark fw-400 fs-14" href="">Smartphones</a>
-              <a class="dark fw-400 fs-14" href="">Computers</a>
-              <a class="dark fw-400 fs-14" href="">Audio</a>
-              <a class="dark fw-400 fs-14" href="">Accessories</a>
-              <a class="dark fw-400 fs-14" href="contact.html">Contact</a>
+              <a class="dark fw-400 fs-14 active" href="HTML/home.html">All Categories</a>
+              <a class="dark fw-400 fs-14" href="HTML/electronics.html">Electronics</a>
+              <a class="dark fw-400 fs-14" href="HTML/smartphones.html">Smartphones</a>
+              <a class="dark fw-400 fs-14" href="HTML/computers.html">Computers</a>
+              <a class="dark fw-400 fs-14" href="HTML/accessories.html">Accessories</a>
+              <a class="dark fw-400 fs-14" href="HTML/contact.html">Contact</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="d-flex align-items-center gap-2 justify-content-end">
-              <a href="" class="dark fw-400 fs-14"
-                ><i class="bi bi-gift"></i> Best Deal</a
-              >
+              <a href="" class="dark fw-400 fs-14"><i class="bi bi-gift"></i> Best Deal</a>
               <div class="Hseparator"></div>
-              <span class="dark fw-400 fs-14"
-                ><i class="bi bi-telephone"></i> +509 0000 00 00</span
-              >
+              <span class="dark fw-400 fs-14"><i class="bi bi-telephone"></i> +509 0000 00 00</span>
             </div>
           </div>
         </div>
       </div>
+  
     </div>
+  </div>
     <section class="py-5">
       <div class="container">
-        <div class="d-flex align-items-start">
+        <div class="d-flex flex-wrap align-items-start">
           <div class="productView border-mid">
-            <div class="d-flex">
+            <div class="d-flex  align-items-start flex-wrap">
               <div class="productBox border-right">
                 <img
                   src="../IMG/phone/productView.png"
@@ -115,7 +152,7 @@
                 />
               </div>
               <div
-                class="productBoxRelate d-flex flex-column gap-2 align-items-center justify-content-center"
+                class="productBoxRelate d-flex flex-md-column flex-sm-row  gap-2 align-items-center justify-content-center"
               >
                 <div class="_w-100 bg-light rounded-2">
                   <img
@@ -172,16 +209,16 @@
               </div>
             </div>
             <div class="divide w-100 mb-4"></div>
-            <div class="d-flex align-items-center gap-2">
+            <div class="productAction d-flex align-items-center gap-2">
               <button
-                class="px-3 py-1 rounded-5 btn d-lex justify-content-between align-items-center border-mid"
+                class="px-3 py-1 rounded-5 btn d-flex justify-content-between align-items-center border-mid"
               >
                 <i class="bi bi-dash"></i>
                 <span>1</span>
                 <i class="bi bi-plus"></i>
               </button>
               <button
-                class="px-5 py-1 light-blue rounded-5 btn d-lex align-items-center bg-navy"
+                class="px-5 py-1 light-blue rounded-5 btn d-flex align-items-center bg-navy"
               >
                 <i class="bi bi-cart"></i>
                 <span class="fs-14 fw-400">Add to cart</span>
@@ -202,176 +239,145 @@
 
     <section class="py-5">
       <div class="container">
-        <div class="d-flex align-items-center justify-content-between mb-3">
+        <div class="headline d-flex align-items-center justify-content-between mb-3 px-2">
           <h2 class="fw-500 fs-20 dark">Similar products</h2>
-          <a href="#" class="dark fw-400 fs-14">
+          <a href="HTML/electronics.html" class="dark fw-400 fs-14">
             <span>View All</span>
             <i class="bi bi-chevron-right fs-12 fw-400"></i>
           </a>
         </div>
-
+    
         <div
-          class="d-flex flex-wrap align-items-center justify-content-center gap-4"
-        >
-          <div class="cardBox mb-2">
-            <div
-              class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
-            >
-              <img
-                src="../IMG/phone/iphone.png"
-                alt=""
-                srcset=" w-100 h-100 img-fluid"
-              />
-              <div
-                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-heart fs-16 dark"></i>
+          class="d-flex flex-wrap align-items-center justify-content-sm-center justify-content-md-center gap-3 cardContainer">
+          <div class="cardBox mb-0">
+            <a href="product-details.html">
+              <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                <img src="../IMG/phone/iphone.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                <div
+                  class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-heart fs-16 dark"></i>
+                </div>
+                <div
+                  class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-cart fs-16 dark"></i>
+                </div>
               </div>
-              <div
-                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-cart fs-16 dark"></i>
+              <div class="cardBoxText px-2 py-3">
+                <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                <div class="rate d-flex align-items-center gap-1 mb-1">
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                </div>
+                <span class="fw-600 fs-18 dark">$1,299.00</span>
               </div>
-            </div>
-            <div class="cardBoxText px-2 py-3">
-              <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
-              <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-              </div>
-              <span class="fw-600 fs-18 dark">$1,299.00</span>
-            </div>
+            </a>
           </div>
-          <div class="cardBox mb-2">
-            <div
-              class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
-            >
-              <img
-                src="../IMG/phone/mac.png"
-                alt=""
-                srcset=" w-100 h-100 img-fluid"
-              />
-              <div
-                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-heart fs-16 dark"></i>
+          <div class="cardBox mb-0">
+            <a href="product-details.html">
+              <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                <img src="../IMG/phone/mac.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                <div
+                  class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-heart fs-16 dark"></i>
+                </div>
+                <div
+                  class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-cart fs-16 dark"></i>
+                </div>
               </div>
-              <div
-                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-cart fs-16 dark"></i>
+              <div class="cardBoxText px-2 py-3">
+                <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                <div class="rate d-flex align-items-center gap-1 mb-2">
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                </div>
+                <span class="fw-600 fs-18 dark">$1,299.00</span>
               </div>
-            </div>
-            <div class="cardBoxText px-2 py-3">
-              <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
-              <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-              </div>
-              <span class="fw-600 fs-18 dark">$1,299.00</span>
-            </div>
+            </a>
           </div>
-          <div class="cardBox mb-2">
-            <div
-              class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
-            >
-              <img
-                src="../IMG/phone/watch.png"
-                alt=""
-                srcset=" w-100 h-100 img-fluid"
-              />
-              <div
-                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-heart fs-16 dark"></i>
+          <div class="cardBox mb-0">
+            <a href="product-details.html">
+              <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                <img src="../IMG/phone/watch.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                <div
+                  class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-heart fs-16 dark"></i>
+                </div>
+                <div
+                  class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-cart fs-16 dark"></i>
+                </div>
               </div>
-              <div
-                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-cart fs-16 dark"></i>
+              <div class="cardBoxText px-2 py-3">
+                <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                <div class="rate d-flex align-items-center gap-1 mb-2">
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                </div>
+                <span class="fw-600 fs-18 dark">$1,299.00</span>
               </div>
-            </div>
-            <div class="cardBoxText px-2 py-3">
-              <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
-              <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-              </div>
-              <span class="fw-600 fs-18 dark">$1,299.00</span>
-            </div>
+            </a>
           </div>
-          <div class="cardBox mb-2">
-            <div
-              class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
-            >
-              <img
-                src="../IMG/phone/ipad.png"
-                alt=""
-                srcset=" w-100 h-100 img-fluid"
-              />
-              <div
-                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-heart fs-16 dark"></i>
+          <div class="cardBox mb-0">
+            <a href="product-details.html">
+              <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                <img src="../IMG/phone/ipad.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                <div
+                  class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-heart fs-16 dark"></i>
+                </div>
+                <div
+                  class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-cart fs-16 dark"></i>
+                </div>
               </div>
-              <div
-                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-cart fs-16 dark"></i>
+              <div class="cardBoxText px-2 py-3">
+                <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                <div class="rate d-flex align-items-center gap-1 mb-2">
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                </div>
+                <span class="fw-600 fs-18 dark">$1,299.00</span>
               </div>
-            </div>
-            <div class="cardBoxText px-2 py-3">
-              <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
-              <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-              </div>
-              <span class="fw-600 fs-18 dark">$1,299.00</span>
-            </div>
+            </a>
           </div>
-          <div class="cardBox mb-2">
-            <div
-              class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative"
-            >
-              <img
-                src="../IMG/phone/s25.png"
-                alt=""
-                srcset=" w-100 h-100 img-fluid"
-              />
-              <div
-                class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-heart fs-16 dark"></i>
+          <div class="cardBox mb-0">
+            <a href="product-details.html">
+              <div class="cardBoxContainer _h-200 _w-200 bg-light rounded-4 position-relative">
+                <img src="../IMG/phone/s25.png" alt="" srcset=" w-100 h-100 img-fluid" />
+                <div
+                  class="wishlist cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-heart fs-16 dark"></i>
+                </div>
+                <div
+                  class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute">
+                  <i class="bi bi-cart fs-16 dark"></i>
+                </div>
               </div>
-              <div
-                class="addToCart cursor-pointer _h-30 _w-30 bg-white rounded-circle d-flex align-items-center justify-content-center position-absolute"
-              >
-                <i class="bi bi-cart fs-16 dark"></i>
+              <div class="cardBoxText px-2 py-3">
+                <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
+                <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
+                <div class="rate d-flex align-items-center gap-1 mb-2">
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                  <i class="bi bi-star-fill fs-12 yellow"></i>
+                </div>
+                <span class="fw-600 fs-18 dark">$1,299.00</span>
               </div>
-            </div>
-            <div class="cardBoxText px-2 py-3">
-              <h3 class="fw-500 fs-16 dark mb-1">Iphone 17 pro Max</h3>
-              <p class="fw-400 fs-12 dark mb-1">1TB, 12GB RAM</p>
-              <div class="d-flex align-items-center gap-1 mb-2">
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-                <i class="bi bi-star-fill fs-12 yellow"></i>
-              </div>
-              <span class="fw-600 fs-18 dark">$1,299.00</span>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -379,10 +385,9 @@
     <!-- shpping info -->
     <section class="shippingBox py-4 border-top">
       <div class="container">
-        <div class="d-flex align-items-center justify-content-center gap-5">
-          <div
-            class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2"
-          >
+        <div
+          class="shippingContainer d-flex flex-wrap align-items-center justify-content-sm-start justify-content-md-center gap-sm-2 gap-md-4">
+          <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
             <i class="bi bi-gift fs-18 yellow"></i>
             <div class="shippingText">
               <h3 class="fw-400 fs-14 dark mb-0">Free In-store pickup</h3>
@@ -391,9 +396,7 @@
               </p>
             </div>
           </div>
-          <div
-            class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2"
-          >
+          <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
             <i class="bi bi-box-seam fs-18 yellow"></i>
             <div class="shippingText">
               <h3 class="fw-400 fs-14 dark mb-0">Free Shipping</h3>
@@ -402,9 +405,7 @@
               </p>
             </div>
           </div>
-          <div
-            class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2"
-          >
+          <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
             <i class="bi bi-coin fs-18 yellow"></i>
             <div class="shippingText">
               <h3 class="fw-400 fs-14 dark mb-0">Flexible Payment</h3>
@@ -413,9 +414,7 @@
               </p>
             </div>
           </div>
-          <div
-            class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2"
-          >
+          <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
             <i class="bi bi-headset fs-18 yellow"></i>
             <div class="shippingText">
               <h3 class="fw-400 fs-14 dark mb-0">Covenient Help</h3>
@@ -424,9 +423,7 @@
               </p>
             </div>
           </div>
-          <div
-            class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2"
-          >
+          <div class="shippingInfo d-flex align-items-start gap-2 px-3 py-2 rounded-2">
             <i class="bi bi-repeat fs-18 yellow"></i>
             <div class="shippingText">
               <h3 class="fw-400 fs-14 dark mb-0">Easy Returns</h3>
@@ -438,7 +435,7 @@
         </div>
       </div>
     </section>
-    <footer class="py-5 bg-navy light-blue">
+    <footer class="py-5 bg-navy light-blue position-relative">
       <div class="container">
         <div class="row mb-3">
           <div class="col-md-3">
@@ -463,32 +460,16 @@
             </div>
             <ul class="list-unstyled">
               <li>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Electronics</a
-                >
+                <a href="HTML/electronics.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Electronics</a>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Returns</a
-                >
+                <a href="HTML/phone.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Smartphone</a>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Shipping</a
-                >
+                <a href="HTML/computers.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Computers</a>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Contact Us</a
-                >
+                <a href="HTML/accessories.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Accessories</a>
               </li>
             </ul>
           </div>
@@ -499,32 +480,16 @@
             </div>
             <ul class="list-unstyled">
               <li>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Help Center</a
-                >
+                <a href="HTML/help.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Help Center</a>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Returns</a
-                >
+                <a href="HTML/returns.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Returns</a>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Shipping</a
-                >
+                <a href="HTML/shipping.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Shipping</a>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14"
-                  >Contact Us</a
-                >
+                <a href="HTML/contact.html" class="text-decoration-none light-GrayBlue fw-400 fs-14">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -535,36 +500,19 @@
             </div>
             <div class="">
               <div class="follow d-flex align-items-center gap-3 mb-3">
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"
-                  ><i class="bi bi-facebook fs-16"></i
-                ></a>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"
-                  ><i class="bi bi-twitter fs-16"></i>
+                <a href="#" class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"><i
+                    class="bi bi-facebook fs-16"></i></a>
+                <a href="#" class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"><i
+                    class="bi bi-twitter fs-16"></i>
                 </a>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"
-                  ><i class="bi bi-instagram fs-16"></i
-                ></a>
-                <a
-                  href="#"
-                  class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"
-                  ><i class="bi bi-tiktok fs-16"></i
-                ></a>
+                <a href="#" class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"><i
+                    class="bi bi-instagram fs-16"></i></a>
+                <a href="#" class="text-decoration-none light-GrayBlue fw-400 fs-14 _h-40 _w-40 rounded-pill btn"><i
+                    class="bi bi-tiktok fs-16"></i></a>
               </div>
               <div class="subscribe py-2">
                 <form action="" method="post" class="d-flex align-items-center">
-                  <input
-                    type="email"
-                    name=""
-                    id=""
-                    class="fw-400 fs-14 light-GrayBlue"
-                    placeholder="Your email..."
-                  />
+                  <input type="email" name="" id="" class="fw-400 fs-14 light-GrayBlue" placeholder="Your email..." />
                   <button class="btn _h-40 _w-40 fs-14 rounded-pill">
                     <i class="bi bi-send"></i>
                   </button>
@@ -574,8 +522,8 @@
           </div>
         </div>
         <div class="separatorLine bg-blue"></div>
-        <div class="d-flex justify-content-between mt-4">
-          <p class="fw-300 fs-14 light-GrayBlue mb-0">
+        <div class="footerText flex-wrap d-flex justify-content-sm-center justify-content-md-between mt-4">
+          <p class="fw-300 fs-14 light-GrayBlue mb-1">
             &copy;
             <script>
               document.write(new Date().getFullYear());
@@ -587,7 +535,15 @@
             Viactechnology&trade;
           </p>
         </div>
+        <div
+          class="backtoTop position-fixed  d-flex align-items-center justify-content-center rounded-pill bg-light  _h-50 _w-50  cursor-pointer ">
+          <i class="bi bi-chevron-up fs-120 navy"></i>
+    
+        </div>
       </div>
     </footer>
+    
+    <!-- Js Import -->
+    <script src="../JS/menu.js"></script>
   </body>
 </html>

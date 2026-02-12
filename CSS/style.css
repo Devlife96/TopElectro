@@ -105,6 +105,32 @@ textarea:focus {
   color: #a9a7a7;
   font-size: 14px;
 }
+
+/* menu box for mobile */
+.linkDisplay {
+  background: linear-gradient(to bottom, #f2f2f2, #ffffff);
+  width: 50%;
+  height: auto;
+  transition: all 0.7s ease cubic-bezier(0.1, 0.1, 0.6, 0.1);
+  z-index: 999;
+  border-bottom: 1px solid #f2f2f2;
+}
+.linkDisplay a{
+  border-bottom: 1px solid #dadada;
+}
+.linkDisplay a:hover {
+  background: linear-gradient(to right, #f2f2f2, #ffffff);
+  color: #080c1a;
+}
+.linkDisplay .menuClose {
+  position: absolute;
+  top: 3%;
+  right: 10px;
+  border: 1px solid #dadada;
+}
+.linkDisplay.hidden {
+  display: none !important;
+}
 /* banner */
 
 .bannerBox .BannerBoxText {
@@ -298,6 +324,13 @@ footer .backtoTop:hover {
 footer .backtoTop:hover i {
   color: #d6f0fd !important;
   transform: scale(1.2);
+}
+/* badge */
+.displayBadge {
+  width: 8px;
+  height: 8px;
+  top: 0;
+  right: -2px;
 }
 
 /* Setup For #te break Points --Responsive */
